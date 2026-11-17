@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Protocol
-
+import os
 
 class RateProvider(Protocol):
     """Джерело курсів валют: скільки гривень коштує 1 одиниця валюти."""
@@ -54,3 +54,5 @@ class Cart:
         if not self._items:
             return None
         return max(self._items.values(), key=lambda item: item.price)
+
+    x = [1,2,3 ]

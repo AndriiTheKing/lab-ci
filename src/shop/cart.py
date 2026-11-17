@@ -54,5 +54,3 @@ class Cart:
         if not self._items:
             return None
         return max(self._items.values(), key=lambda item: item.price)
-
-    

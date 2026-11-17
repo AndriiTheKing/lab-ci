@@ -4,7 +4,6 @@ import pytest
 
 from shop.cart import Cart, Item
 
-
 # ---------- add / items_count ----------
 
 
